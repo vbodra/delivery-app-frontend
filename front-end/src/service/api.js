@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3001',
+  baseURL: 'https://delivery-app-backend-blw0.onrender.com/',
 });
 
 export const authLogin = async (login) => {
